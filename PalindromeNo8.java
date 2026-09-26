@@ -1,13 +1,10 @@
-class Solution {
+public class PalindromeNo8 {
     public boolean isPalindrome(int x) {
 
-        // Negative numbers are never palindromes
         if (x < 0) {
             return false;
         }
 
-        // Numbers ending in 0 are not palindromes,
-        // except 0 itself
         if (x % 10 == 0 && x != 0) {
             return false;
         }
