@@ -1,4 +1,4 @@
-class Solution {
+class ZigZagConv6 {
     public String convert(String s, int numRows) {
 
         // If only one row, no zigzag is needed
