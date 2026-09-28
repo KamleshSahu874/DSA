@@ -1,14 +1,12 @@
 class ZigZagConv6 {
     public String convert(String s, int numRows) {
 
-        // If only one row, no zigzag is needed
         if (numRows == 1 || numRows >= s.length()) {
             return s;
         }
 
         StringBuilder[] rows = new StringBuilder[numRows];
 
-        // Create StringBuilder for each row
         for (int i = 0; i < numRows; i++) {
             rows[i] = new StringBuilder();
         }
@@ -16,7 +14,6 @@ class ZigZagConv6 {
         int currentRow = 0;
         boolean goingDown = false;
 
-        // Put each character in the correct row
         for (char c : s.toCharArray()) {
 
             rows[currentRow].append(c);
