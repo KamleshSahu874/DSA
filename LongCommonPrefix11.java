@@ -1,4 +1,4 @@
-class Solution {
+class LongCommonPrefix11 {
     public String LongestCommonPrefix(String[] strs) {
 
         String prefix = strs[0];

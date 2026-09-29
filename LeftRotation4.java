@@ -14,7 +14,6 @@ public class LeftRotation4 {
             result.add(arr.get(i));
         }
 
-        // Add elements from beginning to d-1
         for (int i = 0; i < d; i++) {
             result.add(arr.get(i));
         }
@@ -24,23 +23,21 @@ public class LeftRotation4 {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int d = sc.nextInt();
 
-        int n = sc.nextInt();
-        int d = sc.nextInt();
+            List<Integer> arr = new ArrayList<>();
 
-        List<Integer> arr = new ArrayList<>();
+            for (int i = 0; i < n; i++) {
+                arr.add(sc.nextInt());
+            }
 
-        for (int i = 0; i < n; i++) {
-            arr.add(sc.nextInt());
+            List<Integer> result = rotateLeft(d, arr);
+
+            for (int num : result) {
+                System.out.print(num + " ");
+            }
         }
-
-        List<Integer> result = rotateLeft(d, arr);
-
-        for (int num : result) {
-            System.out.print(num + " ");
-        }
-
-        sc.close();
     }
 }
