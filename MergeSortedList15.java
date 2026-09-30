@@ -1,4 +1,13 @@
 class MergeSortedList15 {
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
+
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         ListNode dummy = new ListNode(0);
