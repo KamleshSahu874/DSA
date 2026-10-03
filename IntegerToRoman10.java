@@ -1,4 +1,4 @@
-class Solution {
+class IntegerToRoman10 {
     public String IntegerToRoman10(int num) {
 
         int[] values = {
