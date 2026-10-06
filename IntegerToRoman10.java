@@ -1,5 +1,5 @@
 class IntegerToRoman10 {
-    public String IntegerToRoman10(int num) {
+    public String IntegerToRoman10 (int num) {
 
         int[] values = {
             1000, 900, 500, 400,
