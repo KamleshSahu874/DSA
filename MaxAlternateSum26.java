@@ -1,8 +1,8 @@
 
 import java.util.*;
 
-class Solution {
-    public long MaxAlternateSum26 (int[] nums) {
+class MaxAlternateSum26 {
+    public long maxAlternatingSum(int[] nums) {
         int n = nums.length;
         long[] squares = new long[n];
 

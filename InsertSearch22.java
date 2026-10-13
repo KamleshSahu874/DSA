@@ -1,5 +1,5 @@
-class Solution {
-    public int InsertSearch22 (int[] nums, int target) {
+class InsertSearch22 {
+    public int searchInsert(int[] nums, int target) {
 
         int low = 0;
         int high = nums.length - 1;

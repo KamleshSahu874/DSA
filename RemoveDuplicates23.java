@@ -1,5 +1,5 @@
-class Solution {
-    public int RemoveDuplicates23(int[] nums) {
+class RemoveDuplicates23 {
+    public int removeDuplicates(int[] nums) {
         int k = 1;
 
         for (int i = 1; i < nums.length; i++) {

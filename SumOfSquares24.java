@@ -1,6 +1,6 @@
 
-class Solution {
-    public int SumOfSquares24(int[] nums) {
+class SumOfSquares24 {
+    public int sumOfSquares(int[] nums) {
         int n = nums.length;
         int sum = 0;
 
