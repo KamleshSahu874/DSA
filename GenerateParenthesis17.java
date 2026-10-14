@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class GenerateParenthesis17 {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
 
